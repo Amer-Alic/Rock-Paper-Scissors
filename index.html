@@ -12,26 +12,25 @@
 <body>
     <h1>Playing to 5:</h1>
 
-<div id = "choices">
-    <button id = "rock" class="choice">&#129704</button>
-    <button id = "paper" class="choice">&#129531</button>
-    <button id = "scissors" class="choice">&#x2702</button>
-</div>
-<button id = "reset">RESET</button>
-
-<div id = "scores">
-    <div id = playerScore>
-        YOU:
-        <span id="playerSpan">0</span>
-
+    <div id="choices">
+        <button id="rock" class="choice" data-selection="rock">&#129704</button>
+        <button id="paper" class="choice" data-selection="paper">&#129531</button>
+        <button id="scissors" class="choice" data-selection="scissors">&#x2702</button>
     </div>
-    <div id = "computerScore">
-        COMPUTER:
-        <span id="computerSpan">0</span>
-    </div>
-</div>
+    <button id="reset">RESET</button>
 
-<script src="app.js"></script>
+    <div id="scores">
+        <div id=playerScore>
+            YOU:
+            <span id="playerSpan">0</span>
+        </div>
+
+        <div id="computerScore">
+            COMPUTER: <span id="computerSpan">0</span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
